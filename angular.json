@@ -23,7 +23,11 @@
               "src/favicon.ico",
               "src/assets"
             ],
+            "allowedCommonJsDependencies": [
+              "lodash"
+           ],
             "styles": [
+              
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "MEANPro"
+    }
+  },
+  "defaultProject": "MEANPro",
+  "cli": {
+    "analytics": "fdc50d1a-d4dd-44df-808f-bfcd08a85b48"
+  }
 }
